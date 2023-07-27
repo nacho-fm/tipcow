@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TipCow Rewards</string>
+    <string name="left_text_1">COLLECT</string>
+    <string name="left_text_2">CONCERT POINTS</string>
+    <string name="left_text_3">CHECK-IN TO WIN</string>
+    <string name="enter_phone">Enter phone number</string>
+    <string name="welcome">WELCOME to TIPCOW</string>
+    <string name="name">ENTER YOUR FIRST NAME</string>
+    <string name="congrats">CONGRATULATIONS</string>
+    <string name="text_sent">WE SENT YOU A TEXT</string>
+</resources>

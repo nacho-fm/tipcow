@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPurpleDark">#443C66</color>
+    <color name="colorPurpleLight">#625b7f</color>
+    <color name="colorOrange">#EB9269</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

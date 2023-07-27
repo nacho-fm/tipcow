@@ -1,0 +1,2 @@
+db:
+    connect_url: postgresql://nacho:tipcow@nacho-srv:5432/tipcow

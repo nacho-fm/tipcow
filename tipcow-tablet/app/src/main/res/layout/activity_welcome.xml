@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPurpleDark"
+    tools:context="tipcow.tc_tablet.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/tc_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/tc_logo" />
+
+    <tipcow.tc_tablet.views.RobotoLightTextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/tc_logo"
+        android:text="@string/welcome"
+        android:textColor="@color/colorWhite"
+        android:textSize="60dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/welcome_text"
+        android:layout_marginTop="20dp"
+        android:inputType=
+            "textCapSentences|textNoSuggestions|textVisiblePassword"
+        android:textColor="@color/colorWhite"
+        android:textSize="40dp"
+        android:hint="@string/name"
+        android:gravity="center"
+        android:background="@android:color/transparent" />
+</RelativeLayout>
